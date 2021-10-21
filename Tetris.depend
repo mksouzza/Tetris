@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1480528034 source:c:\users\marcv_000\desktop\tetris\main.c
+	"includes.h"
+	"my_functions.h"
+
+1480340085 c:\users\marcv_000\desktop\tetris\includes.h
+	<allegro.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
+1480528274 c:\users\marcv_000\desktop\tetris\my_functions.h
+	"includes.h"
+
+1480541624 source:c:\users\marcv_000\desktop\tetris\my_functions.c
+	"includes.h"
+	"my_functions.h"
+
+1480524434 source:c:\relâmpago marquinhos\utfpr\prog 1\tetris\main.c
+	"includes.h"
+	"my_functions.h"
+
+1480336485 c:\relâmpago marquinhos\utfpr\prog 1\tetris\includes.h
+	<allegro.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
+1480524674 c:\relâmpago marquinhos\utfpr\prog 1\tetris\my_functions.h
+	"includes.h"
+
+1480545289 source:c:\relâmpago marquinhos\utfpr\prog 1\tetris\my_functions.c
+	"includes.h"
+	"my_functions.h"
+

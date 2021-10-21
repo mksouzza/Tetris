@@ -1,0 +1,76 @@
+#include "includes.h"
+#ifndef _my_functions_h
+#define _my_functions_h
+
+///INICIAR
+void iniciar(int *screent, volatile int *xit_program);
+
+///FECHAR
+void fecha_programa(volatile int *xit_program);
+
+///SISTEMA DE TELAS
+enum {TITLESCREEN, MAINMENU, INSTRUCTIONS, RECORDSCREEN, GAMESCREEN};
+void titlescreen(int *screent, volatile int *xit_program, volatile int *ptroca);
+void mainmenu(int *screent, volatile int *xit_program);
+void instructions(int *screent, volatile int *xit_program);
+void gamescreen(int *screent, volatile int *xit_program);
+void recordscreen(int *screent, volatile int *xit_program);
+
+///BLOCOS
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_J;
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_L[4];
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_T;
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_S;
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_Z;
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_I;
+
+typedef struct
+{
+int tamanho;
+int rotation;
+int pos_x;
+int pos_y;
+}bloco_O;
+
+#endif // _my_functions_h
